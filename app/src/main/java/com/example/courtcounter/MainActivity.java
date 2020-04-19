@@ -72,5 +72,6 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamB = 0;
         displayForTeamA(0);
         displayForTeamB(0);
+        mViewModel.onCleared();
     }
 }

@@ -11,5 +11,7 @@ public class ScoreViewModel extends ViewModel {
     @Override
     protected void onCleared() {
         super.onCleared();
+        scoreTeamA = 0;
+        scoreTeamB = 0;
     }
 }
